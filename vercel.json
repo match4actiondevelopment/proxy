@@ -1,7 +1,7 @@
 {
   "rewrites": [
-    {"source": "/api/", "destination": "https://match4action-api.vercel.app/api/"},
-    {"source": "/api/:match*", "destination": "https://match4action-api.vercel.app/api/:match*"},
+    {"source": "/api/", "destination": "https://match4action-api.vercel.app/"},
+    {"source": "/api/:match*", "destination": "https://match4action-api.vercel.app/:match*"},
     {"source": "/", "destination": "https://match4action-web.vercel.app/"},
     {"source": "/:match*", "destination": "https://match4action-web.vercel.app/:match*"}
   ]
